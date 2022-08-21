@@ -1,5 +1,4 @@
-import numpy as np
-from matplotlib.pyplot import *
+from lib import *
 
 def db(x):
     return 10*np.log10(x)
