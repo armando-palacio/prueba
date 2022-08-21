@@ -1,0 +1,25 @@
+git init                # inicializa un working directory
+git add <filename>      # agrega el archivo a la staging area
+git add .               # agrega todos los archivos a la staging area
+git commit -m "msg"     # realiza un commit de los archivos de la staging area con el mensaje msg
+git commit -a -m "msg"  # realiza un commit de los archivos del working directory directamente.
+
+git branch              # muestra todas las ramas existentes (master por default)
+git branch <name-id>    # crea una ramificación del proyecto con el nombre name-id
+git branch -d <name-id> # elimina la ramificación de nombre name-id
+
+git checkout <branch>   # carga en el working directory los archivos correspondientes al último commit del branch
+
+git log --graph         # muestra un árbol de registro con todos los commits del proyecto
+
+git clone https://github.com/armando-palacio/proyect-name  # clona repositorio remoto
+
+git remote              # muestra todos los directorios remotos asociados 
+git remote add origin https://github.com/armando-palacio/proyect-name  # agrega dirección de directorio remoto a la variable origin
+
+git push origin <branch>   # agrega repositorio local al branch especificado en el repositorio remoto
+git fetch origin <branch>  # baja archivos del repositorio remoto que no estén en el local
+ 
+
+
+
