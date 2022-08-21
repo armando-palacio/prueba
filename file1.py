@@ -6,6 +6,11 @@ def db(x):
 def dbm(x):
     return db(x)+30
 
+def idb(x):
+    return 10**(x/10)
+
+def idbm(x):
+    return 10**(x/10-3)
 
 
 
